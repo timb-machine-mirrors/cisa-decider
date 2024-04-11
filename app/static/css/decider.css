@@ -326,7 +326,7 @@ body {
 }
 
 .answer-card .card-header mark {
-    padding: 0.1rem !important;
+    padding: 0 !important;
     background-color: inherit;
     color: inherit;
     text-decoration-line: underline;
@@ -336,7 +336,7 @@ body {
     text-decoration-skip-ink: none;
 }
 .answer-card .card-body mark {
-    padding: 0.1rem !important;
+    padding: 0 !important;
     background-color: inherit;
     color: inherit;
     text-decoration-line: underline;

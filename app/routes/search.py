@@ -442,7 +442,11 @@ class PSQLTxt:
 
     @staticmethod
     def zwspace_pad_special(txt):
-        return f"regexp_replace({txt}, '([^a-z0-9 ]+)', '\u200B\\1\u200B', 'gi')"
+        """Surrounds runs of special characters with hair-spaces
+            - Splits on specials as a form of tokenization
+            - Minimally alters visual output
+        """
+        return f"regexp_replace({txt}, '([^a-z0-9 ]+)', '\u200A\\1\u200A', 'gi')"
 
     @staticmethod
     def basic_headline(txt, qry):
