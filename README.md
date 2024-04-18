@@ -28,6 +28,8 @@ Decider is a tool to help analysts map adversary behavior to the MITRE ATT&CK Fr
 - [Guide in Markdown](./docs/user_guide_3_0_0/user-guide.md)
 - [Guide in HTML](./app/static/user-guide.html)
 
+**Note:** *The MD can be viewed directly on GitHub, while the HTML must be downloaded for local viewing. The MD will appear slightly weird - as it contains Pandoc directives used in generating the HTML.*
+
 ### :triangular_ruler: Intended Purpose
 
 Decider ultimately tries to make mapping to [ATT&amp;CK](https://attack.mitre.org/) easier.
