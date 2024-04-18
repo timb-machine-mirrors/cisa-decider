@@ -25,7 +25,8 @@ Decider is a tool to help analysts map adversary behavior to the MITRE ATT&CK Fr
 
 ### :book: User Guide
 
-[Over Here](./docs/user_guide_3_0_0/user-guide-3-0-0.pdf)
+- [Guide in Markdown](./docs/user_guide_3_0_0/user-guide.md)
+- [Guide in HTML](./app/static/user-guide.html)
 
 ### :triangular_ruler: Intended Purpose
 
