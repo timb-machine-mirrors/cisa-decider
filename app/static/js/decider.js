@@ -850,8 +850,10 @@ document.addEventListener('alpine:init', function () {
         },
 
         loadFromJson() {
-            // button -> trigger <input> file selector
-            document.getElementById('cartFile').click();
+            // button -> clear & then open <input> file selector
+            const fileInput = document.getElementById('cartFile');
+            fileInput.value = "";
+            fileInput.click();
         },
 
         loadFromJsonFileChanged(inputEl) {
